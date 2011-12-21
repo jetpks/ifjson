@@ -76,7 +76,9 @@
         hex_route.gateway = good_ip;
         routes.push(hex_route);
       });
+
       // Find the lowest metric and set that route to primary_route.
+      // I know this is a bad way to do it: 
       primary_route.metric = 9999999999;
       routes.forEach(function(route) {
         if(route.metric < primary_route.metric) {
