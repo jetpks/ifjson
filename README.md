@@ -7,6 +7,22 @@ Notes:
 ---
 Only works on GNU/Linux. Does not work with BSD systems.
 
+Example Output:
+---
+[
+  {
+    "ipaddr": "192.168.1.102",
+    "netmask": "255.255.255.0",
+    "cidr": "24",
+    "gateway": "192.168.1.1"
+  },
+  {
+    "ipaddr": "10.19.2.12",
+    "netmask": "255.255.0.0",
+    "cidr": "16",
+    "gateway": "10.19.0.1"
+  }
+]
 
 TODO List:
 ---
